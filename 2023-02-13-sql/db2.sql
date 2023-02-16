@@ -6,14 +6,14 @@ CREATE TABLE db2.user (
 );
 
 INSERT INTO db2.user
-(name, password)
+    (name, password)
 VALUES 
-("otto", "asdf1234"), 
-("hans", "geheim");
+    ("otto", "asdf1234"), 
+    ("hans", "geheim");
 
 INSERT INTO db2.user 
-(name, password)
+    (name, password)
 VALUES 
-("peter", "123456"), 
-(" daniel", "geheimesPW"), 
-(" fabian", "abcd");
+    ("peter", "123456"), 
+    (" daniel", "geheimesPW"), 
+    (" fabian", "abcd");
